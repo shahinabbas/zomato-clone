@@ -1,0 +1,68 @@
+body
+{
+    margin: 0;
+}
+.banner-image
+{
+    height: 500px;
+    background-image: url('images/1234.webp');
+    background-size: cover;
+}
+.nav-font
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button-singup
+{
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+}
+.text-size
+{
+    font-size: 14px;
+}
+.checkbox-style
+{
+    background-color: brown;
+}
+.error
+{
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+}
+.error-all
+{
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+}
+
+.popular-section-2
+{
+    color: rgb(189, 189, 189);
+}
+.place-font
+{
+    font-size: 20px;
+}
+.contry_img
+{
+    width: 50px;
+}
+.border-color
+{
+    border-color: rgb(131, 125, 125);
+    color: rgb(83, 83, 83);
+}   
+.footer-content
+{
+    text-decoration: none;
+    color: rgb(88, 85, 85);
+}
+select
+{
+    border-radius:7px;
+    width: 100px;
+    height: 40px;
+}

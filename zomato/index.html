@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Zomato</title>
+</head>
+<body>
+
+<!-- header section start -->
+
+<header class="banner-image">
+
+    <!-- navbar -->
+
+            <nav class="navbar navbar-expand-lg navbar-light p-md-3">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto p-3 mb-2 mb-lg-0 nav-font">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="https://www.zomato.com/partner-with-us"><h5>Add restaurant</h5></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"><h5>Login in</h5></a>
+                            </li>
+
+                            <li class="nav-item mt-2">
+                                <button class="button-singup" type="button" data-bs-target="#signup" data-bs-toggle="modal" >Sign up</button>
+                            </li>
+
+                            <!-- signup page -->
+
+                                <div id="signup" class="modal fade">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="d-flex">
+                                                <h3 class="text-center ms-2">Sign Up</h3>
+                                                <div class="modal-bdoy ms-auto p-2">
+                                                    <button type="button" class="btn-close btn-close-bark" data-bs-dismiss="modal"></button>
+                                                </div>
+                                            </div>
+                                            <div class="bg-light">
+                                                <form action="#" id="form">
+                                                    <div class="p-2">
+                                                        <div class="mb-3 mt-3">
+                                                            <input type="text" id="uname" name="uname" class="form-control" placeholder="Full Name">
+                                                            <span class="error" id="name-error"></span>
+                                                        </div>
+                                                        <div class="mb-3 mt-3">
+                                                            <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+                                                            <span class="error" id="email-error"></span>
+                                                        </div>
+                                                        <div class="mb-3 mt-3 d-flex">
+                                                            <input type="checkbox" id="checked" name="checked">
+                                                            <div class="mt-1 ms-2">
+                                                                <p class="text-dark text-size">I agree to Zomato's Terms of Service, Privacy Policy and <br> Content Policies</p>
+                                                            </div>
+                                                            <span class="error" id="check-error"></span>
+                                                        </div>
+                                                        <span class="error-all"></span>
+                                                        <div class="mt-1">
+                                                            <button type="submit" class="btn btn-danger form-control submit">Create Account</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <div class="p-2">
+                                                    <div class="text-dark mt-2">
+                                                        <button class="form-control">Continue with Google</button>
+                                                    </div>
+                                                    <div class="text-dark mt-3 ms-1">
+                                                        Alreay have an account? <a href="">Log in</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+            <div class="w-80 vh-95 d-flex justify-content-center align-items-center">
+                <div class="content text-center ">
+                   
+                    <div class="">
+        
+                        <img src="images/123.webp" class="object-fit-contain" width="28%" height="23%">
+                       
+                        <h1 class="text-light">Find the best restaurants, cafés <br> and bars in India</h1>
+                    </div>
+                </div>
+            </div>
+
+
+</header>
+
+
+
+    <section>
+        <div class="d-flex justify-content-center">
+            <div class="content text-center">
+                <div class="mt-3 popular-section-1">
+                    <h1 class="text-dark">Popular locations in <img alt="India flag" src="https://b.zmtcdn.com/images/flags_z10/in.png?output-format=webp"> India</h1>
+                </div>
+                <div class="pl-5 pr-5 mt-5">
+                    <h5 class="popular-section-2">From swanky upscale restaurants to the cosiest hidden gems serving the most incredible food,<br>Zomato covers it all. Explore menus, and millions of restaurant photos and reviews from users<br>just like you, to find your next great meal.</h5>
+                </div>
+            <div>
+                <div class="container mt-5">
+                    <div class="row">
+                    <div class="col-md-4">
+                        <div class="card rounded-3 p-1">
+                        <div class="card-body me-auto place-font">
+                                Agra Restaurants
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card rounded-3 p-1">
+                        <div class="card-body me-auto place-font">
+                                Ahmedabad Restaurants
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card rounded-3 p-1">
+                        <div class="card-body me-auto place-font">
+                                Ajmer Restaurants
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <div class="card rounded-3 p-1">
+                            <div class="card-body me-auto place-font">
+                                    Alappuzha Restaurants
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card rounded-3 p-1">
+                            <div class="card-body me-auto place-font">
+                                    Allahabad Restaurants
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card rounded-3 p-1">
+                            <div class="card-body me-auto place-font">
+                                    Amravati Restaurants
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <div class="card rounded-3 p-1">
+                            <div class="card-body me-auto place-font">
+                                    Amritsar Restaurants
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card rounded-3 p-1">
+                            <div class="card-body me-auto place-font">
+                                    Aurangabad Restaurants
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card rounded-3 p-1">
+                            <div class="card-body me-auto place-font">
+                                    Bengaluru Restaurants
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <div class="card rounded-3 p-1">
+                                <div class="card-body me-auto place-font">
+                                    Bhopal Restaurants
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card rounded-3 p-1">
+                                <div class="card-body me-auto place-font">
+                                Bhubneswar Restaurant
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card rounded-3 p-1">
+                                <div class="card-body me-auto place-font">
+                                    Chandigarh Restaurants
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- popular section end -->
+
+<!-- All contries -->
+
+    <section>
+        <div class="content">
+            <div class="mt-5 ms-5 popular-section-1">
+                <h1 class="text-dark">All Countries</h1>
+            </div>
+        </div>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a class="text-decoration-none text-dark" href="http://127.0.0.1:5501/index.html"> 
+                        <div class="card rounded-3 p-1">
+                        <div class="card-body me-auto place-font">
+                            <img class="contry_img" src="https://b.zmtcdn.com/images/flags_z10/in.png?output-format=webp" alt="India">  India
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                   
+                   <div class="col-md-4">
+                    <a class="text-decoration-none text-dark" href="https://www.zomato.com/australia/goodbye"> 
+                        <div class="card rounded-3 p-1">
+                        <div class="card-body me-auto place-font">
+                           <img class="contry_img" src="https://b.zmtcdn.com/images/flags_z10/au.png?output-format=webp" alt="Australia"> Australia
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a class="text-decoration-none text-dark" href="https://www.zomato.com/brasil/goodbye"> 
+                        <div class="card rounded-3 p-1">
+                        <div class="card-body me-auto place-font">
+                            <img class="contry_img" src="	https://b.zmtcdn.com/images/flags_z10/br.png?output-format=webp" alt="Brasil"> Brazil
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card rounded-3 p-1">
+                        <div class="card-body me-auto place-font">
+                            <img class="contry_img" src="https://b.zmtcdn.com/images/flags_z10/ca.png?output-format=webp" alt="Canada"> Canada
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card rounded-3 p-1">
+                        <div class="card-body me-auto place-font">
+                            <img class="contry_img" src="	https://b.zmtcdn.com/images/flags_z10/cl.png?output-format=webp" alt="Chile"> Chile
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card rounded-3 p-1">
+                        <div class="card-body me-auto place-font">
+                            <img  class="contry_img" src="https://b.zmtcdn.com/images/flags_z10/cz.png?output-format=webp" alt="Czech Republic"> Czech Republic
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card rounded-3 p-1">
+                        <div class="card-body me-auto place-font">
+                            <img class="contry_img" src="https://b.zmtcdn.com/images/flags_z10/id.png?output-format=webp" alt="Indonesia"> Indonesia
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card rounded-3 p-1">
+                        <div class="card-body me-auto place-font">
+                            <img class="contry_img" src="https://b.zmtcdn.com/images/flags_z10/ie.png?output-format=webp" alt="Irland"> Ireland
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card rounded-3 p-1">
+                        <div class="card-body me-auto place-font">
+                            <img class="contry_img" src="https://b.zmtcdn.com/images/flags_z10/it.png?output-format=webp" alt="Italy"> Italy
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card rounded-3 p-1">
+                            <div class="card-body me-auto place-font">
+                                <img class="contry_img" src="https://b.zmtcdn.com/images/flags_z10/lb.png?output-format=webp" alt="Lebanon"> Lebanon
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card rounded-3 p-1">
+                            <div class="card-body me-auto place-font">
+                                <img class="contry_img" src="https://b.zmtcdn.com/images/flags_z10/my.png?output-format=webp" alt="Malaysia"> Malaysia
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card rounded-3 p-1">
+                            <div class="card-body me-auto place-font">
+                                <img class="contry_img" src="https://b.zmtcdn.com/images/flags_z10/nz.png?output-format=webp" alt="New Zeland"> New Zealand
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <footer class="bg-light text-center text-lg-start mt-5">
+
+        <div class="container d-flex justify-content-center">
+            <div class="me-auto mt-3 p-1">
+                <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&amp;crop=198:42;*,*" alt="Zomato logo" width="150px">
+            </div>
+            <div class="mt-3 p-1">
+                <select>
+                    <option value="">India</option>
+                </select>
+            </div>
+            <div class="mt-3 p-1">
+                <select>
+                    <option value="">English</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="container p-4">
+           
+            <div class="row">
+
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">ABOUT ZOMATO</h5>
+            
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#" class="footer-content"> Who We Are</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-content">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-content">Work With Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-content">Investors relationship</a>
+                            
+                        </li>
+                        <li>
+                            <a href="#" class="footer-content">  Report Fraud</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-content"> Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+           
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">ZOMAVERSE</h5>
+            
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#" class="footer-content">Zomato</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-content">Blinkit</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-content">Feeding India</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-content">Hyperpure</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-content">Zomaland</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">FOR RESTAURANTS</h5>
+            
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#" class="footer-content">Partner with us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-content">Apps for you</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-content">Work With Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-content">  Report Fraud</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-content"> Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">LEARN MORE</h5>
+            
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://www.zomato.com/policies/privacy/" class="footer-content">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="https://www.zomato.com/policies/security/" class="footer-content">Security</a>
+                        </li>
+                        <li>
+                            <a href="https://www.zomato.com/policies/terms-of-service/" class="footer-content">Terms</a>
+                        </li>
+                        <li>
+                            <a href="https://www.zomato.com/directory" class="footer-content">Sitemap</a>
+                        </li>
+                   </ul>
+                </div>
+                
+
+                </div>
+        </div>
+        
+      
+            <div class="container">
+                <div class="text-center p-3 border-top border-color">
+                    By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.
+                </div>
+            </div>
+       
+
+    </footer>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
